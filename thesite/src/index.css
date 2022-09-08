@@ -1,0 +1,89 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: darkblue;
+  color: white;
+}
+
+.Nav-List{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.itemview{
+
+  font-size: xx-large;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Pic{
+  margin-top: 5%;
+}
+
+body{
+  background-color: skyblue;
+}
+
+
+.logo{
+  max-width:5%;
+  height:auto;
+}
+
+.about{
+  background-image: url("https://virtualbackgrounds.site/wp-content/uploads/2020/07/fortnite-chapter-2-landscape.jpg");
+  height:1000px;
+}
+
+.about-container{
+
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    font-size: 72px;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color: skyblue;
+}
+
+.cards{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+.card{
+display: flex;
+flex-direction: column;
+}
+
+
+.btns{
+  display: inline-block;
+ 
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
