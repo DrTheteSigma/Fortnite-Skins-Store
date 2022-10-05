@@ -1,14 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { UserAuth } from './context/AuthContext'
 
 const ShoppingCart = ({items, subtract, addition}) => {
+
+    const {user, logout} = UserAuth() 
 
     const [price, setPrice] = useState(0)
     console.log(items)
 
+  
+
    
+    console.log(user && user.email)
 
     useEffect(() => {
+     
       setPrice(0)
       items.map(item =>{
         console.log(item)
